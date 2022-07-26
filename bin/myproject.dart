@@ -17,7 +17,7 @@ makeGreetingOptional([String name = 'test', int age = 0]) {
 }
 
 String hello(){
-  return 'Halo';
+  return 'Hallololololololooolloollloo';
 }
 
 //creating variables with different types
