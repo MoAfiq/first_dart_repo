@@ -1,11 +1,32 @@
 import 'package:myproject/myproject.dart' as myproject;
 import 'package:myproject/cat.dart' as myprojecttoo;
+import 'package:myproject/day3practices.dart' as myprojectthree;
 
 
 void main(List<String> arguments) {
-  makeGreeting("Mohamad", 15, 145.5);
-  makeGreetingOptional();
-  print(hello());
+  // makeGreeting("Mohamad", 15, 145.5);
+  // makeGreetingOptional();
+  // print(hello());
+  // makeGreetingDynamic(name: 'Nunez', age: 22, weight: 65);
+  // List<int> intArr = [1,2,3,4,5];
+  // intArr[2] = 12;
+  // print(intArr);
+  //
+  // //List of strings
+  // List<String> strArr = ['hello', 'world'];
+  // print(strArr);
+  // myproject.controlFlow(0);
+  // myproject.switchCase(1);
+  //
+  // myproject.loopCondition();
+
+  //Guess the number
+  // myproject.guessTheNumber();
+
+  //Day 3 Practices
+
+  myprojectthree.printSomething(20, 'after 2 seconds');
+  myprojectthree.printSomething(10, 'after 1 seconds');
 }
 
 void makeGreeting(String name, int age, double height) {
@@ -19,6 +40,11 @@ makeGreetingOptional([String name = 'test', int age = 0]) {
 String hello(){
   return 'Hallololololololooolloollloo';
 }
+
+dynamic makeGreetingDynamic({required String name, int age = 0, double weight = 0}) {
+  print('Halo $name, Age: $age, Weight: $weight kg');
+}
+
 
 //creating variables with different types
 // String name = "Mad";
